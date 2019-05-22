@@ -14,5 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/register', 'ATGController@register');
+Route::get('/', 'ATGController@register');
 Route::post('/register', 'ATGController@postregister'); 
